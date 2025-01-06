@@ -52,7 +52,17 @@ npm run build
 
 The optimized build will be created in the `build` directory.
 
+##testing account
+account: Batman
+password: An123456
+
 ## Project Structure
+
+// Before (using the hosted URL):
+const URL = 'https://chatroom1-2.onrender.com/auth';
+
+// After (using the local URL):
+const URL = 'http://localhost:5000/auth';
 
 ```
 chatterly/
@@ -78,28 +88,6 @@ chatterly/
 - Universal Cookie
 - React Router
 - CSS3
-
-## Development Guidelines
-
-### Environment Variables
-The project uses environment variables for configuration. Required variables:
-- `REACT_APP_STREAM_API_KEY`: Your Stream Chat API key
-
-### Git Ignore
-The project includes a `.gitignore` file to exclude:
-- Dependencies (`/node_modules`)
-- Build files (`/build`)
-- Environment files (`.env`, `.env.local`, etc.)
-- System files (`.DS_Store`)
-- Debug logs
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/YourFeature`)
-3. Commit changes (`git commit -m 'Add YourFeature'`)
-4. Push to branch (`git push origin feature/YourFeature`)
-5. Open a Pull Request
 
 ## Troubleshooting
 
