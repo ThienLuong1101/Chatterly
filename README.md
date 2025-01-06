@@ -27,9 +27,10 @@ Before you begin, ensure you have installed:
    ```bash
    git clone https://github.com/ThienLuong1101/Chatterly.git
    cd Chatterly
+   cd client
    ```
 
-2. **Environment Setup**
+2. **Environment Setup frontend**
    - Create a `.env` file in the root directory
    - Add your Stream API key:
      ```
@@ -57,14 +58,23 @@ npm run build
 The optimized build will be created in the `build` directory.
 
 
-
-## Project Structure
-
+## backend setup
+- I render the backend you can choose to run the local server or using the hosted server
+```bash
 // Before (using the hosted URL):
 const URL = 'https://chatroom1-2.onrender.com/auth';
 
 // After (using the local URL):
 const URL = 'http://localhost:5000/auth';
+```
+- setting up of local server same as front end
+- .env in server
+```bash
+STREAM_API_ID=
+STREAM_API_KEY=
+STREAM_API_SECRET=
+```
+## Project Structure
 
 ```
 chatterly/
