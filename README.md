@@ -104,12 +104,3 @@ Common issues and solutions:
    - Clear npm cache: `npm cache clean --force`
    - Delete `node_modules` and run `npm install`
 
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) file for details.
-
-## Contact
-
-Thien Luong - [GitHub Profile](https://github.com/ThienLuong1101)
-
-Project Link: [https://github.com/ThienLuong1101/Chatterly](https://github.com/ThienLuong1101/Chatterly)
