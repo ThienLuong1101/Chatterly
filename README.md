@@ -1,7 +1,7 @@
 # Chatterly
 
 Chatterly is a real-time chat application built with React and Stream Chat, featuring an AI chatbot integration.
-# website: https://chatterlymadebyuncle10.netlify.app/
+### website: https://chatterlymadebyuncle10.netlify.app/
 
 ## Features
 
