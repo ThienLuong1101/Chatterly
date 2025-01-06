@@ -11,6 +11,10 @@ Chatterly is a real-time chat application built with React and Stream Chat, feat
 - Modern, responsive UI
 - Team collaboration support
 
+## testing account
+- account: Batman
+- password: An123456
+
 ## Prerequisites
 
 Before you begin, ensure you have installed:
@@ -52,9 +56,7 @@ npm run build
 
 The optimized build will be created in the `build` directory.
 
-##testing account
-account: Batman
-password: An123456
+
 
 ## Project Structure
 
